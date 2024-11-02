@@ -1,0 +1,105 @@
+/*
+Theme Name: prc
+Theme URI: google.com
+Description: A brief description.
+Version: 1.0
+Author: jemz
+Author URI: http://sampleke.unaux.com
+*/
+        *{
+            box-sizing: border-box;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 120vh;
+            margin: 0;
+            background-color: #e9f5ff;
+            font-family: 'Arial', sans-serif;
+        }
+        .reg {
+            background-color: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            width: 90%;
+            max-width: 600px;
+            text-align: left; 
+        }
+        h2 {
+            margin-bottom: 20px;
+            font-size: 24px;
+            color: #333;
+            text-align: center; 
+            }
+        label {
+            margin-top: 15px;
+            display: block;
+            font-weight: bold;
+            color: #555;
+        }
+        .name-container {
+            display: flex; 
+            justify-content: space-between; 
+            gap: 10px; 
+            margin-bottom: 15px; 
+        }
+        input {
+            width: 100%; 
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            transition: border-color 0.3s;
+            font-size: 16px; 
+            box-sizing: border-box;
+        }
+        input:focus {
+            border-color: #007BFF;
+            outline: none; 
+        }
+        input[type = "submit"] {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+            padding: 12px;
+            border-radius: 6px;
+            transition: background-color 0.3s;
+            font-size: 16px;
+            margin-top: 20px;
+            width: 100%;
+        }
+        input[type = "submit"]:hover {
+            background-color: #0056b3;
+        }
+        .footer-text {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #777;
+            text-align: center;
+        }
+        input[type = "number"]::-webkit-inner-spin-button,
+        input[type = "number"]::-webkit-outer-spin-button {
+            -webkit-appearance: none;
+            margin: 0; 
+        }
+        
+        input[type = "number"] {
+            appearance: textfield;
+        }
+        .checkbox-label {
+            display: flex; 
+            align-items: center;
+            margin-bottom: 10px; 
+            text-align: left; 
+        }
+
+        .checkbox-label input {
+            margin-top: 15px;
+            margin-left: 0%;
+            margin-right: 5px;
+            width: auto; 
+            vertical-align:bottom;     
+        }
